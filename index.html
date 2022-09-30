@@ -22,7 +22,7 @@
         <nav class="navbar">
           <ul class="nav-list">
             <li>
-              <a href="#FIXME" title="Home">Home</a>
+              <a class="active" href="#FIXME" title="Home">Home</a>
             </li>
             <li>
               <a href="#FIXME" title="About">About</a>
@@ -46,11 +46,6 @@
             </li>
           </ul>
         </nav>
-        <div class="menu-toggle">
-          <span class="bar bar1">bar</span>
-          <span class="bar bar2">bar</span>
-          <span class="bar bar3">bar</span>
-        </div>
         <ul class="social-links">
           <li>
             <a class="icons twitter" href="#FIXME" title="Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
@@ -68,6 +63,11 @@
             <a class="icons google" href="#FIXME" title="Google+" target="_blank" rel="noopener noreferrer">Google+</a>
           </li>
         </ul>
+        <div class="menu-toggle">
+          <span class="bar bar1">bar</span>
+          <span class="bar bar2">bar</span>
+          <span class="bar bar3">bar</span>
+        </div>
       </div>
     </header>
     <!--header section end-->
@@ -77,16 +77,30 @@
       <!-- banner section start  -->
       <section class="banner-section">
         <div class="wrapper">
-          <figure class="banner-img">
-            <img src="https://dummyimage.com/1301x475/44a65e/fff" alt="Banner Image">
-          </figure>
-          <ul class="banner-content">
-            <li class="banner-headline"><h3 class="banner-heading">We meet your financial investment needs</h3></li>
-            <li class="banner-headline"><h3 class="banner-heading">We meet your financial investment needs</h3></li>
-            <li class="banner-headline"><h3 class="banner-heading">We meet your financial investment needs</h3></li>
-          </ul>
           <div class="control">
             <span class="prev-btn">Previous Btn</span>
+          </div>
+          <ul class="slider">
+            <li class="slides">
+              <figure class="slide-img">
+                <img src="https://dummyimage.com/1301x475/44a65e/fff" alt="Banner image">
+              </figure>
+              <h3 class="banner-heading">We meet your financial investment needs</h3>
+            </li>
+            <li class="slides">
+              <figure class="slide-img">
+                <img src="https://dummyimage.com/1301x475/44a65e/fff" alt="Banner image">
+              </figure>
+              <h3 class="banner-heading">We meet your financial investment needs</h3>
+            </li>
+            <li class="slides">
+              <figure class="slide-img">
+                <img src="https://dummyimage.com/1301x475/44a65e/fff" alt="Banner image">
+              </figure>
+              <h3 class="banner-heading">We meet your financial investment needs</h3>
+            </li>
+          </ul>
+          <div class="control">  
             <span class="next-btn">Next Btn</span>
           </div>
         </div>
@@ -99,7 +113,9 @@
           <h2 class="main-heading">Our Focus Is Our Client's Success</h2>
           <ul class="feature list">
             <li class="feature-item">
-              <span class="icon gallery-icon">Gallery icon</span>
+              <figure class="feature-img">
+                <img src="https://dummyimage.com/68x68/409c93/fff" alt="Features image">
+              </figure>
               <h3 class="sub-heading">Private Banking</h3>
               <p class="feature-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt totam iusto corporis expedita a hic consequatur numquam, deleniti eligendi praesentium laudantium voluptatibus harum, quos enim.</p>
               <div class="learn-btn">
@@ -107,7 +123,9 @@
               </div>
             </li>
             <li class="feature-item">
-              <span class="icon graph-icon">Graph icon</span>
+              <figure class="feature-img">
+                <img src="https://dummyimage.com/68x68/409c93/fff" alt="Features image">
+              </figure>
               <h3 class="sub-heading">Time Saving Tips</h3>
               <p class="feature-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt totam iusto corporis expedita a hic consequatur numquam, deleniti eligendi praesentium laudantium voluptatibus harum, quos enim.</p>
               <div class="learn-btn">
@@ -115,7 +133,9 @@
               </div>
             </li>
             <li class="feature-item">
-              <span class="icon money-icon">Money icon</span>
+              <figure class="feature-img">
+                <img src="https://dummyimage.com/68x68/409c93/fff" alt="Features image">
+              </figure>
               <h3 class="sub-heading">Budgeting Tips</h3>
               <p class="feature-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt totam iusto corporis expedita a hic consequatur numquam, deleniti eligendi praesentium laudantium voluptatibus harum, quos enim.</p>
               <div class="learn-btn">
@@ -123,8 +143,10 @@
               </div>
             </li>
             <li class="feature-item">
-              <span class="icon globe-icon">Half Globe</span>
               <h3 class="sub-heading">Money Saving Ideas</h3>
+              <figure class="feature-img">
+                <img src="https://dummyimage.com/68x68/409c93/fff" alt="Features image">
+              </figure>
               <p class="feature-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt totam iusto corporis expedita a hic consequatur numquam, deleniti eligendi praesentium laudantium voluptatibus harum, quos enim.</p>
               <div class="learn-btn">
                 <a href="#FIXME" title="Learn More">Learn More</a>
@@ -183,16 +205,16 @@
             <h2 class="main-heading">Fresh Investment Solutions!</h2>
             <ul class="points-list">
               <li class="point-items">
-                <span class="setting-icon">Setting Icon</span>Dolor sit amet, consectetur adipisicing Sed do eiusmod tempor incididunt ut labore
+                <h4 class="key-point">Dolor sit amet, consectetur adipisicing Sed do eiusmod tempor incididunt ut labore</h4>
               </li>
               <li class="point-items">
-                <span class="setting-icon">Setting Icon</span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                <h4 class="key-point">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
               </li>
               <li class="point-items">
-                <span class="setting-icon">Setting Icon</span>Lorem ipsum dolor sit amet consectetur.
+                <h4 class="key-point">Lorem ipsum dolor sit amet consectetur.</h4>
               </li>
               <li class="point-items">
-                <span class="setting-icon">Setting Icon</span>Lorem ipsum dolor sit.
+                <h4 class="key-point">Lorem ipsum dolor sit.</h4>
               </li>
             </ul>
             <div class="learn-btn">
@@ -203,13 +225,13 @@
             <h2 class="main-heading">Learning to Save Money</h2>
             <ul class="points-list">
               <li class="point-items">
-                <span class="setting-icon">Setting Icon</span>Lorem ipsum dolor, sit amet consectetur adipisicing
+                <h4 class="key-point">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
               </li>
               <li class="point-items">
-                <span class="setting-icon">Setting Icon</span>Lorem ipsum dolor sit amet consectetur.
+                <h4 class="key-point">Lorem ipsum dolor sit amet consectetur.</h4>
               </li>
               <li class="point-items">
-                <span class="setting-icon">Setting Icon</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h4 class="key-point">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
               </li>
             </ul>
             <p class="right-para">
@@ -226,38 +248,38 @@
       <!-- partner section start  -->
       <div class="partner-section">
         <div class="wrapper">
-          <ul class="partner-img-list">
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-            <li class="partner-logo">
-              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner Logo">
-            </li>
-          </ul>
           <div class="arrow">
             <span class="arrow-left" >Left Arrow</span>
           </div>
+          <ul class="partner-img-list">
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+            <li class="partner-logo">
+              <img src="https://dummyimage.com/190x75/c0bade/fff" alt="Partner logo">
+            </li>
+          </ul>
           <div class="arrow">
             <span class="arrow-right" >Right Arrow</span>
           </div>
@@ -269,9 +291,8 @@
       <section class="contact-section">
         <div class="wrapper">
           <h2 class="contact-heading">Quick Contact</h2>
-          <div class="contact-form">
-            <form action="#FIXME" method="get">
-                <div class="form-left">
+            <form class="contact-form" action="#FIXME" method="get">
+              <div class="form-left">
                 <div class="form-input">
                   <input type="text" placeholder="Name:">
                 </div>
@@ -282,59 +303,75 @@
                   <input type="number" placeholder="Phone:">
                 </div>
               </div>
-              <div class="form-right">
+              <div class="form-right form-input">
                 <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
               </div>
               <input class="form-btn" type="submit" value="Send">
-              </form>
-          </div>
-          <div class="contact-links">
-            <ul class="contact-list">
-              <li class="contact-item">
-                <a href="#FIXME" title="Newyork 9870 ST">New York 9870 ST Vincent Glasgow</a>
-              </li>
-              <li class="contact-item">
-                <a href="mailto:contact@demolink.org" title="Contact@demolink.org">Contact@demolink.org</a>
-              </li>
-              <li class="contact-item">
-                <a href="tel:+18006036035" title="Call Us">Call Us: +1 800 603 6035</a>
-              </li>
-            </ul>
-          </div>
+            </form>
         </div>
       </section>
       <!-- contact section end -->
+      
+      <!-- reachout section start  -->
+      <div class="reachout-section">
+        <div class="wrapper">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <figure class="contact-img">
+                <img src="https://dummyimage.com/90x90/9d9e6a/fff" alt="Location logo">
+              </figure>
+              <address>New York 9870 ST Vincent Glasgow</address>
+            </li>
+            <li class="contact-item">
+              <figure class="contact-img">
+                <img src="https://dummyimage.com/90x90/9d9e6a/fff" alt="Email image">
+              </figure>
+              <a href="mailto:contact@demolink.org" title="Contact@demolink.org">Contact@demolink.org</a>
+            </li>
+            <li class="contact-item">
+              <figure class="contact-img">
+                <img src="https://dummyimage.com/90x90/9d9e6a/fff" alt="Call image">
+              </figure>
+              <span class="callus">Call Us:</span>
+              <a href="tel:+18006036035" title="Call Us">+1 800 603 6035</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- reach out section end -->
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer class="footer">      
-      <p class="copyright"><span class="logo">Haber</span>&copy; 2018 Privacy Policy</p>
-      <ul class="footer-social">
-        <li>
-          <a class="footer-icon t" href="#FIXME" title="T" target="_blank" rel="noopener noreferrer">T</a>
-        </li>
-        <li>
-          <a class="footer-icon twitter" href="#FIXME" title="Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
-        </li>
-        <li>
-          <a class="footer-icon youtube" href="#FIXME" title="Youtube" target="_blank" rel="noopener noreferrer">Youtube</a>
-        </li>
-        <li>
-          <a class="footer-icon wifi" href="#FIXME" title="Wifi" target="_blank" rel="noopener noreferrer">Wifi</a>
-        </li>
-        <li>
-          <a class="footer-icon facebook" href="#FIXME" title="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
-        </li>
-        <li>
-          <a class="footer-icon google" href="#FIXME" title="Google+" target="_blank" rel="noopener noreferrer">Google+</a>
-        </li>
-      </ul>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.080363658705!2d72.9501913497568!3d19.19169198695797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b96f0b099f21%3A0xc978277a19452515!2sSunrise%20Business%20Park!5e0!3m2!1sen!2sin!4v1664459419320!5m2!1sen!2sin"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="footer">
+      <div class="wrapper">
+        <h3 class="footer-logo">Haber</h3><p class="copyright">&copy; 2022 Privacy Policy</p>
+        <ul class="footer-social">
+          <li>
+            <a class="footer-icon tumblr" href="#FIXME" title="Tumblr" target="_blank" rel="noopener noreferrer">Tumblr</a>
+          </li>
+          <li>
+            <a class="footer-icon twitter" href="#FIXME" title="Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
+          </li>
+          <li>
+            <a class="footer-icon youtube" href="#FIXME" title="Youtube" target="_blank" rel="noopener noreferrer">Youtube</a>
+          </li>
+          <li>
+            <a class="footer-icon wifi" href="#FIXME" title="Wifi" target="_blank" rel="noopener noreferrer">Wifi</a>
+          </li>
+          <li>
+            <a class="footer-icon facebook" href="#FIXME" title="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </li>
+          <li>
+            <a class="footer-icon google" href="#FIXME" title="Google+" target="_blank" rel="noopener noreferrer">Google+</a>
+          </li>
+        </ul>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.080363658705!2d72.9501913497568!3d19.19169198695797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b96f0b099f21%3A0xc978277a19452515!2sSunrise%20Business%20Park!5e0!3m2!1sen!2sin!4v1664459419320!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </footer>
     <!--footer section end-->
